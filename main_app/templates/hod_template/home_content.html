@@ -2,6 +2,28 @@
 {% load static %}
 {% block page_title %}{{page_title}}{% endblock page_title %}
 {% block content %}
+<style>
+  /* Small box hover effect */
+  .small-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Small box title hover effect */
+  .small-box h3:hover {
+    color: #fff;
+  }
+
+  /* Small box icon hover effect */
+  .small-box .icon:hover {
+    color: #fff;
+  }
+
+  /* Small box footer hover effect */
+  .small-box-footer:hover {
+    color: #fff;
+  }
+</style>
 <section class="content">
     <div class="container-fluid">
         <!-- Small boxes (Stat box) -->
